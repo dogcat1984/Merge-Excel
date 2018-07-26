@@ -56,6 +56,8 @@ def press_action(button):
 
     if button=="Clear":
         app.clearEntry("Source Folder Dir")
+        app.setEntry("Remove Rows",0)
+        app.setEntry("Words In File Name","")
 
 def action():
     global exp_rows
